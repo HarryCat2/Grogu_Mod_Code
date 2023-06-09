@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+      {
+      "item": "minecraft:sugar"
+      },
+      {
+      "item": "minecraft:milk"
+      },
+    {
+      "item": "minecraft:egg"
+    }
+    ],
+  "result": {
+    "item": "grogu_mod:blue_cookie",
+    "count": 4
+  }
+}

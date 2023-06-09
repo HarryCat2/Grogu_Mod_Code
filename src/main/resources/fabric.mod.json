@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "grogu_mod",
+  "version": "${version}",
+  "name": "grogu",
+  "description": "",
+  "authors": ["Braden"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/grogu_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "braden.grogu.client.GroguClient"
+    ],
+    "main": [
+      "braden.grogu.grogu_mod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
